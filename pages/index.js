@@ -63,7 +63,9 @@ export default function Home() {
           <p className='text-green hover:underline-offset-8 underline-offset-4 decoration-white underline cursor-pointer'>My Cars</p>
 
         </Link>
-          <p className='text-green hover:underline-offset-8 underline-offset-4 decoration-white underline cursor-pointer'>Recent Transactions</p>
+        <Link href={{ pathname: 'my-bookings'}}>
+          <p className='text-green hover:underline-offset-8 underline-offset-4 decoration-white underline cursor-pointer'>My bookings</p>
+        </Link>
         </div>
       </div>
 

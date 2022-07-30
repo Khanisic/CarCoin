@@ -64,9 +64,7 @@ function create() {
                         </div>
 
                         <div className='w-[200px] col-span-1 border flex justify-center hover:bg-dark-green  bg-green items-center rounded-fifteen border-green cursor-pointer'>
-
                             <p className='text-white hover:text-white px-10 py-2'>Create</p>
-
                         </div>
 
                     </div>

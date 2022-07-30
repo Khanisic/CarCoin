@@ -28,11 +28,11 @@ function MyCars() {
                     <div className='flex bg-[#F3F4FB] p-9 gap-6 rounded-twenty'>
                         <div className='flex flex-col gap-4'>
                             <Image src={images.cartwo} alt='car' className='rounded-fifteen ' />
-                            <div className='w-[200px] col-span-1 border flex justify-center hover:bg-dark-green  bg-green items-center rounded-fifteen border-green cursor-pointer'>
-
-                                <p className='text-white hover:text-white px-10 py-2'>View requests</p>
-
-                            </div>
+                            <Link href={{ pathname :'/requests'}}>
+                                <div className='w-[200px] col-span-1 border flex justify-center hover:bg-dark-green  bg-green items-center rounded-fifteen border-green cursor-pointer'>
+                                    <p className='text-white hover:text-white px-10 py-2'>View requests</p>
+                                </div>
+                            </Link>
                         </div>
                         <div className='bg-[#FCFCFC] p-2 flex flex-col justify-between rounded-fifteen'>
                             <p className='text-base'>BMW X4</p>
